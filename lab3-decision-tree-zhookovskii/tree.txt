@@ -1,0 +1,30 @@
+digraph {	0 [label = "Weight > 87.00"]
+	2 [label = "Weight > 66.95"]
+	0 -> 2
+	4 [label = "Weight > 54.35"]
+	2 -> 4
+	6 [label = "Insufficient_Weight"]
+	4 -> 6
+	8 [label = "Normal_Weight"]
+	4 -> 8
+	10 [label = "Height > 1.68"]
+	2 -> 10
+	12 [label = "Obesity_Type_I"]
+	10 -> 12
+	14 [label = "Overweight_Level_II"]
+	10 -> 14
+	16 [label = "Gender"]
+	0 -> 16
+	18 [label = "FCVC > 2.95"]
+	16 -> 18
+	20 [label = "Obesity_Type_I"]
+	18 -> 20
+	22 [label = "Obesity_Type_III"]
+	18 -> 22
+	24 [label = "Weight > 107.43"]
+	16 -> 24
+	26 [label = "Obesity_Type_I"]
+	24 -> 26
+	28 [label = "Obesity_Type_II"]
+	24 -> 28
+}
